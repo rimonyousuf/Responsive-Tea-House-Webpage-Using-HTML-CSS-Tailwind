@@ -10,6 +10,9 @@
 
     <!-- css stylesheet -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/c1d3673840.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- header section -->
@@ -211,14 +214,67 @@
     </main>
 
     <!-- footer section -->
-    <footer class="bg-gradient-to-r from-[#ff000014] to-[#ff883950] px-56 py-32">
+    <footer class="bg-gradient-to-r from-[#ff000014] to-[#ff883950] p-3 md:px-56 md:py-32">
         <div class="md:flex justify-between">
-            <img src="images/cup.png" alt="">
+            <img src="images/cup.png" class="mb-2" alt="">
             <div class="md:flex items-center gap-10">
-                <p class="text-xl text-zinc-500">Ready to get strated?</p>
+                <p class="text-xl text-zinc-500 mb-2">Ready to get strated?</p>
                 <button class="bg-gradient-to-r from-[#F00] to-[#FF8938] px-6 py-4 text-white text-xl rounded-xl">Get Started</button>
             </div>
         </div>
+        <div class="grid grid-cols-1 md:grid-cols-4 mt-24">
+            <div>
+                <h1 class="text-sm font-semibold mb-5">Quick Links</h1>
+                <nav>
+                    <ul>
+                        <li class="mb-4"><a href="">Home</a></li>
+                        <li class="mb-4"><a href="">About Us</a></li>
+                        <li class="mb-4"><a href="">Insurance</a></li>
+                        <li class="mb-4"><a href="">Privacy Policy</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <h1 class="text-sm font-semibold mb-5">Our Service</h1>
+                <nav>
+                    <ul>
+                        <li class="mb-4"><a href="">Life Insurance</a></li>
+                        <li class="mb-4"><a href="">Car Insurance</a></li>
+                        <li class="mb-4"><a href="">Health Insurance</a></li>
+                        <li class="mb-4"><a href="">House Insurance</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <h1 class="text-sm font-semibold mb-5">Help</h1>
+                <nav>
+                    <ul>
+                        <li class="mb-4"><a href="">FAQs</a></li>
+                        <li class="mb-4"><a href="">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <h1 class="text-base font-semibold mb-12">Subscsribe to our <br> newsletter</h1>
+                <div class="flex justify-between mb-4">
+                    <p class="text-sm">Email address</p>
+                    <img src="images/right-arrow.png" alt="">
+                </div>
+                <div class="invisible md:visible mb-12">
+                    <svg width="273" height="2" viewBox="0 0 273 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 1.14111L273 1.14109" stroke="#494949"/>
+                      </svg>
+                </div>
+                <div>
+                    <ul class="flex gap-6">
+                        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center text-base mt-24">©copyright 2023.All rights reserved.</div>
     </footer>
 </body>
 </html>
